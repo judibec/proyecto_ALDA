@@ -1,5 +1,6 @@
-import funciones as f
+import functions as f
+import table as t
 
 if __name__ == '__main__':
-    for i in range(50):
-        print(f.englishLevel())
+    rows = int(input("Ingrese cantidad de filas: "))
+    t.createTable(rows)
