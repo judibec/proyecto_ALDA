@@ -19,4 +19,4 @@ Python 3.10.5
 
 To run `coverage`, make sure that you have install it in your pc, if not run `pip install coverage`, then run the requirements.txt. After that run `coverage run -m unittest discover` and `coverage report` it show you the following table:
 
-
+![image](https://user-images.githubusercontent.com/90010884/220839080-686c48c9-eb2a-43a3-9f97-dee8c53504ab.png)
