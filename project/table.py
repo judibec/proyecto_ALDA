@@ -1,6 +1,10 @@
 import pandas as pd
 from project import functions as f
 
+"""
+    Complejiad O(n)
+"""
+
 
 def createTable(rows):
     table = pd.DataFrame()
@@ -76,7 +80,7 @@ def createTable(rows):
         educationLevel += [f.educationLevel()]
         job += [f.job(educationLevel[i])]
         typeOfStudy += [f.typeOfStudy(educationLevel[i])]
-        email += [f.email(firstName[i],lastName[i])]
+        email += [f.email(firstName[i], lastName[i])]
         rh += [f.rh()]
         status += [f.status()]
         stratum += [f.stratum()]

@@ -6,18 +6,42 @@ amountOfTest = 50
 rhGroup = ["A+", "A-", "O+", "O-", "B+", "B-", "AB+", "AB-"]
 typeId = ["CC", "PaP", "CE"]
 typeOfliving = ["Propia", "Arriendo", "Familiar", "N/A"]
-typeOfLivingPlace = ["Inquilinato", "Campamento", "Residencia Estudiantil", "Ancianato", "internado", "Orden Religiosa",
-                     "Apartamento", "Casa"]
+typeOfLivingPlace = [
+    "Inquilinato",
+    "Campamento",
+    "Residencia Estudiantil",
+    "Ancianato",
+    "internado",
+    "Orden Religiosa",
+    "Apartamento",
+    "Casa",
+]
 typePlaceStatus = ["Contruida", "Contruccion Activa", "Construccion Paralizada", "En Ruina", "Abandono", "Otro"]
 eps = ["Compensar", "Sanitas", "Comfenalco", "Salud Total", "Famisanar", "EPS Sura", "Salud Vida"]
 typeReligion = ["Catolica", "N/A", "Cristiana", "Testigo de Jehova", "Musulman", "Maradoniano", "Budista", "Satanista"]
 ethnicity = ["Negro", "Mulato", "Afrocolombiano", "Afroamericano", "Indigena", "Raizal", "Gitano", "Palenquero", "N/A"]
 typeOfPet = ["Perro", "Gato", "Roedor", "Pez", "Pajaros", "Lagarto", "Anfibio", "Otro", "Varios"]
 birthCountries = ["España", "Colombia", "Argentina", "Venezuela", "Ecuador", "Peru", "Mexico"]
-comAllergies = ["N/A", "Polen", "Cosmeticos", "Polvo", "Alimentos", "Gluten", "Medicamentos", "Detergentes Ropa",
-                "Animales", "Moho", "Fragancias"]
+comAllergies = [
+    "N/A",
+    "Polen",
+    "Cosmeticos",
+    "Polvo",
+    "Alimentos",
+    "Gluten",
+    "Medicamentos",
+    "Detergentes Ropa",
+    "Animales",
+    "Moho",
+    "Fragancias",
+]
 englishLevel = ["A1", "A2", "B1", "B2", "C1", "C2", "N/A"]
 reasonLackFood = ["N/A", "Perdidad de cultivo", "Familia muy grande", "Carencia de trabajo", "Carencia Capital", "Otro"]
+
+
+"""
+    Todos los metodos de esta clase son de complejidad O(n)
+"""
 
 
 class testFunctions(unittest.TestCase):
@@ -327,5 +351,5 @@ class testFunctions(unittest.TestCase):
         self.assertEqual(2, len(res))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()
