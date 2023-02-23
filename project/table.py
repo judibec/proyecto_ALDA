@@ -1,5 +1,6 @@
 import pandas as pd
-import functions as f
+from project import functions as f
+
 
 def createTable(rows):
     table = pd.DataFrame()

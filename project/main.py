@@ -1,4 +1,3 @@
-import functions as f
 import table as t
 
 if __name__ == '__main__':

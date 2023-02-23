@@ -22,9 +22,9 @@ def lastName():
 def phoneNumber():
     start = ["300", "301", "302", "303", "304", "324", "305", "310", "311", "312", "313", "314", "320",
              "321", "322", "323", "315", "316", "317", "318", "319", "350", "351", "302", "323", "324", "333"]
-    end = random.randint(0000000, 9999999)
     number = random.choice(start)
-    number += str(end)
+    for i in range(7):
+        number += str(random.randint(0, 9))
     return number
 
 
@@ -82,7 +82,6 @@ def typeOfStudy(study):
 
 
 def email(name, lastName):
-
     name = name.split(" ")[0]
     lastName = lastName.split(" ")[0]
     res = ""
