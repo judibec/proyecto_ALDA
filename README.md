@@ -11,7 +11,7 @@ Python 3.10.5
 ## Running locally and testing
 
 * Create virtual enviroment: `virtualenv env`
-* To install dependencies: `pip3 install -r requirements.txt`
+* To install dependencies: `pip install -r requirements.txt`
 * To run test: `./test.sh` 
 * To run main.py: `./run.sh`
 
